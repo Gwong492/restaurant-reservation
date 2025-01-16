@@ -63,8 +63,8 @@ The backend API manages the database of reservations and tables, while the front
 
 ## Deployment Links
 
-- **Frontend**: [Frontend via Render](#)
-- **Backend**: [Backend via Render](#)
+- **Frontend**: [Frontend via Render](https://restaurant-reservation-p9ev.onrender.com)
+- **Backend**: [Backend via Render](https://restaurant-reservation-backend-ui9l.onrender.com)
 
 ## API Endpoints
 
