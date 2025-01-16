@@ -86,13 +86,13 @@ The backend API manages the database of reservations and tables, while the front
 ## Screenshots
 
 ### Dashboard
-![Dashboard](image-1.png)
+![Dashboard](./images/image-1.png)
 
 ### Search
-![Search](image-2.png)
+![Search](./images/image-2.png)
 
 ## New Reservation
-![New_Reservation](image-3.png)
+![New_Reservation](./images/image-3.png)
 
 ## New Table
-![New_Table](image-4.png)
+![New_Table](./images/image-4.png)
