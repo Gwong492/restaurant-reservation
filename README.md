@@ -91,8 +91,8 @@ The backend API manages the database of reservations and tables, while the front
 ### Search
 ![Search](./images/image-2.png)
 
-## New Reservation
+### New Reservation
 ![New_Reservation](./images/image-3.png)
 
-## New Table
+### New Table
 ![New_Table](./images/image-4.png)
