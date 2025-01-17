@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect} from "react-router-dom";
 import Dashboard from "../dashboard/Dashboard";
 import Search from "../dashboard/Search";
 import NewReservation from "../reservations/NewReservation";
@@ -19,6 +19,9 @@ import NotFound from "./NotFound";
 function Routes() {
   return (
     <Switch>
+      <Route exact path="/">
+        <Redirect to="/dashboard" />
+      </Route>
       <Route exact path="/dashboard">
         <Dashboard />
       </Route>
