@@ -10,6 +10,8 @@ function EditReservations() {
   const [initialFormState, setInitialFormState] = useState(null);
   const [error, setError] = useState(null);
 
+  console.log(reservation_id)
+
   useEffect(() => {
     const abortController = new AbortController();
 
