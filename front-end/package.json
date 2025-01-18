@@ -9,7 +9,7 @@
     "directory": "/front-end"
   },
   "private": true,
-  "homepage": ".",
+  "homepage": "https://restaurant-reservation-p9ev.onrender.com",
   "engines": {
     "node": "16"
   },
