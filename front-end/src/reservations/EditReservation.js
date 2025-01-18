@@ -5,7 +5,7 @@ import { readReservation } from "../utils/api";
 import ErrorAlert from "../layout/ErrorAlert";
 import { formatAsDate, formatAsTime } from "../utils/date-time";
 
-function EditReservations() {
+function EditReservation() {
   const { reservation_id } = useParams();
   const [initialFormState, setInitialFormState] = useState(null);
   const [error, setError] = useState(null);
@@ -59,4 +59,4 @@ function EditReservations() {
   );
 }
 
-export default EditReservations;
+export default EditReservation;
