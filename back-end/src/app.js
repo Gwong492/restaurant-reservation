@@ -18,6 +18,12 @@ app.use(express.json());
 app.use("/reservations", reservationsRouter);
 app.use("/tables", tablesRouter);
 
+app.get("/*", (req, res) => {
+    console.log("Serving index.html for route:", req.path);
+    res.setHeader("Content-Type", "text/html");
+    res.sendFile(path.join(buildPath, "index.html"));
+  });
+
 app.use(notFound);
 app.use(errorHandler);
 
